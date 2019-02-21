@@ -1,9 +1,10 @@
 import React, {Component} from "react";
+import "./empty.css"
 
 export class Empty extends Component {
     render() {
         return (
-            <div>
+            <div className={"empty"}>
                 Empty Component
                 <br/>
                 { this.props.children }
